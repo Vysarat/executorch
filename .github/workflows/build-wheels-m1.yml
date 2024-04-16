@@ -6,6 +6,7 @@ on:
     paths:
       - build/packaging/**
       - .github/workflows/build-wheels-m1.yml
+      # @nocommit: force building wheels in this PR
   push:
     branches:
       - nightly
